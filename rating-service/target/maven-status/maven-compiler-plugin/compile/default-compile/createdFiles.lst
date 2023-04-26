@@ -1,8 +1,0 @@
-com/mariesto/ratingservice/RatingServiceApplication.class
-com/mariesto/ratingservice/common/RatingNotFoundException.class
-com/mariesto/ratingservice/service/RatingService.class
-com/mariesto/ratingservice/persistence/entity/Rating$RatingBuilder.class
-com/mariesto/ratingservice/controller/RatingController.class
-com/mariesto/ratingservice/persistence/domain/RatingDto.class
-com/mariesto/ratingservice/persistence/entity/Rating.class
-com/mariesto/ratingservice/persistence/repository/RatingRepository.class

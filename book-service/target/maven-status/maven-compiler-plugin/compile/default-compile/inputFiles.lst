@@ -1,9 +1,0 @@
-/Users/amendomariestositinjak/Downloads/bookratingmicroservice/book-service/src/main/java/com/mariesto/bookservice/persistence/repository/BookRepository.java
-/Users/amendomariestositinjak/Downloads/bookratingmicroservice/book-service/src/main/java/com/mariesto/bookservice/BookServiceApplication.java
-/Users/amendomariestositinjak/Downloads/bookratingmicroservice/book-service/src/main/java/com/mariesto/bookservice/service/BookService.java
-/Users/amendomariestositinjak/Downloads/bookratingmicroservice/book-service/src/main/java/com/mariesto/bookservice/config/AppConfig.java
-/Users/amendomariestositinjak/Downloads/bookratingmicroservice/book-service/src/main/java/com/mariesto/bookservice/dto/BookDTO.java
-/Users/amendomariestositinjak/Downloads/bookratingmicroservice/book-service/src/main/java/com/mariesto/bookservice/dto/RatingDTO.java
-/Users/amendomariestositinjak/Downloads/bookratingmicroservice/book-service/src/main/java/com/mariesto/bookservice/persistence/entity/Book.java
-/Users/amendomariestositinjak/Downloads/bookratingmicroservice/book-service/src/main/java/com/mariesto/bookservice/common/NotFoundException.java
-/Users/amendomariestositinjak/Downloads/bookratingmicroservice/book-service/src/main/java/com/mariesto/bookservice/controller/BookController.java
