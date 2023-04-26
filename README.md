@@ -9,7 +9,7 @@ Develop 2 services (`book-service` and `rating-service`) which have in-memory da
 
 `book-service`, `rating-service` and `gateway-service` will use Eureka Client and register itself to Eureka Server.
 
-![](/Users/amendomariestositinjak/Desktop/Screenshot 2023-04-26 at 22.38.41.png)
+![image](./assets/high-level-design.png)
 
 ### Technology
 
