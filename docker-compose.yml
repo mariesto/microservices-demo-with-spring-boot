@@ -1,0 +1,37 @@
+version: "3"
+services:
+  service-registry:
+    image: service-registry
+    container_name: eureka-server
+    ports:
+      - "8761:8761"
+    networks:
+      - my-network
+  book-service:
+    image: book-service
+    container_name: book-service
+    ports:
+      - "8881:8881"
+    networks:
+      - my-network
+  rating-service:
+    image: rating-service
+    container_name: rating-service
+    ports:
+      - "8882:8882"
+    networks:
+      - my-network
+  gateway-service:
+    image: gateway-service
+    container_name: gateway-service
+    ports:
+      - "8889:8889"
+    networks:
+      - my-network
+    depends_on:
+      - book-service
+      - rating-service
+
+networks:
+  my-network:
+    driver: bridge

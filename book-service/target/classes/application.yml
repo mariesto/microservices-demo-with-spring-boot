@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: book-service
+  h2:
+    console:
+      enabled: true
+      settings:
+        web-allow-others: true
+  datasource:
+    username: sa
+    password: password
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:book
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    defer-datasource-initialization: true
+  sql:
+    init:
+      mode: always
+
+server:
+  port: 8881
+
+rating-service:
+  url: http://rating-service/api/v1/ratings/
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka-server:8761/eureka
